@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="nl" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="nl" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,34 +20,42 @@
     <header class="fixed w-full z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="#" class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
+                <a href="https://readthisnow.github.io/organess-kruidenpotjes-2025-04-27-xc7ed" class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">
                     Organess
                 </a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="hover:text-purple-400 transition-colors duration-300">Kenmerken</a>
                     <a href="#benefits" class="hover:text-purple-400 transition-colors duration-300">Voordelen</a>
+                    <a href="#about" class="hover:text-purple-400 transition-colors duration-300">Over Ons</a>
+                    <a href="#testimonials" class="hover:text-purple-400 transition-colors duration-300">Reviews</a>
                     <a href="#faq" class="hover:text-purple-400 transition-colors duration-300">FAQ</a>
-                    <a href="#contact" class="hover:text-purple-400 transition-colors duration-300">Contact</a>
                 </div>
-                <button class="md:hidden text-2xl">
-                    <i class="fas fa-bars"></i>
+                <button class="mobile-menu-button md:hidden" aria-label="Menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <a href="#features" class="block py-2 hover:text-purple-400 transition-colors duration-300">Kenmerken</a>
+                <a href="#benefits" class="block py-2 hover:text-purple-400 transition-colors duration-300">Voordelen</a>
+                <a href="#about" class="block py-2 hover:text-purple-400 transition-colors duration-300">Over Ons</a>
+                <a href="#testimonials" class="block py-2 hover:text-purple-400 transition-colors duration-300">Reviews</a>
+                <a href="#faq" class="block py-2 hover:text-purple-400 transition-colors duration-300">FAQ</a>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="relative min-h-screen flex items-center justify-center py-24 px-6">
-            <div class="absolute inset-0 bg-gradient-to-br from-purple-900/40 to-gray-900"></div>
+        <section class="relative min-h-screen flex items-center justify-center py-24 px-6" style="background-image: url('https://images.unsplash.com/photo-1522184216316-3c1a2f3d2017?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); background-size: cover; background-position: center;">
+            <div class="absolute inset-0 bg-gradient-to-br from-purple-900/80 to-gray-900/80"></div>
             <div class="container mx-auto text-center relative z-10">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                    Koop Organess Kruidenpotjes Met Korting
+                    Revolutioneer Je Keukenorganisatie Met Organess Kruidenpotjes
                 </h1>
                 <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto">
-                    Nog maar enkele exemplaren beschikbaar! Profiteer nu van onze exclusieve aanbieding.
+                    Ervaar de perfecte combinatie van stijl en functionaliteit met onze premium kruidenpotjes. Nu met 25% korting en gratis verzending!
                 </p>
                 <a href="https://amzn.to/3EGbl5G" class="inline-block bg-gradient-to-r from-purple-600 to-pink-600 px-8 py-4 rounded-full text-lg font-semibold hover:scale-105 transform transition duration-300 shadow-lg hover:shadow-purple-500/25">
-                    Bekijk Aanbieding
+                    Profiteer Nu van 25% Korting
                 </a>
             </div>
         </section>
@@ -51,11 +67,20 @@
                 </h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div class="bg-gray-800 rounded-2xl p-8 hover:scale-105 transform transition duration-300 shadow-lg hover:shadow-purple-500/25">
-                        <i class="fas fa-check-circle text-purple-400 text-3xl mb-4"></i>
+                        <i class="fas fa-shield-alt text-purple-400 text-3xl mb-4"></i>
                         <h3 class="text-xl font-semibold mb-4">Luchtdicht Design</h3>
-                        <p class="text-gray-400">Houdt je kruiden langer vers en behoudt alle aroma's</p>
+                        <p class="text-gray-400">Gepatenteerd afdichtingssysteem dat je kruiden tot 3x langer vers houdt. Perfect voor het behoud van aroma's en voedingswaarden.</p>
                     </div>
-                    <!-- Additional feature cards with similar structure -->
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:scale-105 transform transition duration-300 shadow-lg hover:shadow-purple-500/25">
+                        <i class="fas fa-eye text-purple-400 text-3xl mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-4">Transparant Venster</h3>
+                        <p class="text-gray-400">UV-beschermend kijkvenster zorgt voor directe inhoudidentificatie zonder de kwaliteit van je kruiden aan te tasten.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:scale-105 transform transition duration-300 shadow-lg hover:shadow-purple-500/25">
+                        <i class="fas fa-recycle text-purple-400 text-3xl mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-4">Duurzaam Materiaal</h3>
+                        <p class="text-gray-400">Gemaakt van hoogwaardig, recyclebaar materiaal dat bestand is tegen intensief gebruik en vaatwasmachinebestendig is.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -66,7 +91,78 @@
                     Waarom Organess?
                 </h2>
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                    <!-- Benefit items -->
+                    <div class="flex items-start space-x-4 hover:scale-102 transition-transform duration-300">
+                        <i class="fas fa-clock text-purple-400 text-2xl mt-1"></i>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Tijdbesparend Design</h3>
+                            <p class="text-gray-400">Met ons unieke etiketteringssysteem en stapelbare design bespaart u kostbare tijd bij het organiseren van uw keuken.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4 hover:scale-102 transition-transform duration-300">
+                        <i class="fas fa-leaf text-purple-400 text-2xl mt-1"></i>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Milieuvriendelijk</h3>
+                            <p class="text-gray-400">Onze potjes zijn gemaakt van 100% recyclebaar materiaal en dragen bij aan het verminderen van plastic afval.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gray-800/50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                    Over Organess
+                </h2>
+                <div class="max-w-3xl mx-auto space-y-6 text-gray-300">
+                    <p class="leading-relaxed">
+                        Organess werd in 2020 opgericht door een team van gepassioneerde keukenliefhebbers die merkten dat er behoefte was aan hoogwaardige, duurzame oplossingen voor kruidenopslag. Na twee jaar intensief onderzoek en ontwikkeling lanceerden we onze eerste collectie premium kruidenpotjes.
+                    </p>
+                    <p class="leading-relaxed">
+                        Onze missie is om keukens over de hele wereld te transformeren met innovatieve opslagoplossingen die niet alleen functioneel zijn, maar ook bijdragen aan een duurzamere toekomst. We geloven in kwaliteit, duurzaamheid en gebruiksgemak als kernwaarden van ons merk.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                    Wat Onze Klanten Zeggen
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-800 p-6 rounded-lg hover:scale-105 transition-transform duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Deze kruidenpotjes hebben mijn keuken compleet getransformeerd. De luchtdichte afsluiting houdt mijn kruiden echt veel langer vers, en het design is prachtig!"</p>
+                        <p class="font-semibold">Lisa van den Berg</p>
+                        <p class="text-sm text-gray-400">Foodblogger</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg hover:scale-105 transition-transform duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Als professionele chef kan ik bevestigen dat deze potjes echt het verschil maken. De kwaliteit is uitzonderlijk en ze zijn ook nog eens vaatwasmachinebestendig."</p>
+                        <p class="font-semibold">Mark Jansen</p>
+                        <p class="text-sm text-gray-400">Chef-kok, Restaurant De Smaak</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg hover:scale-105 transition-transform duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Eindelijk een oplossing die zowel praktisch als stijlvol is. De etiketten zijn een geweldige toevoeging."</p>
+                        <p class="font-semibold">Emma de Vries</p>
+                        <p class="text-sm text-gray-400">Interieurontwerper</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg hover:scale-105 transition-transform duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"De investering meer dan waard. Mijn kruiden blijven nu maanden goed en ik bespaar uiteindelijk geld doordat ik minder hoef weg te gooien."</p>
+                        <p class="font-semibold">Thomas Bakker</p>
+                        <p class="text-sm text-gray-400">Hobbykok</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -77,22 +173,41 @@
                     Veelgestelde Vragen
                 </h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <!-- FAQ items -->
+                    <div class="bg-gray-800 rounded-lg p-6 hover:scale-102 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold mb-3">Zijn de potjes vaatwasmachinebestendig?</h3>
+                        <p class="text-gray-400">Ja, alle Organess kruidenpotjes zijn 100% vaatwasmachinebestendig en kunnen probleemloos gereinigd worden op temperaturen tot 60°C.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:scale-102 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold mb-3">Hoe lang blijven kruiden vers in de potjes?</h3>
+                        <p class="text-gray-400">Dankzij ons luchtdichte afdichtingssysteem blijven droge kruiden gemiddeld 12-18 maanden vers, wat 3x langer is dan in conventionele opslag.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:scale-102 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold mb-3">Wat is de inhoudscapaciteit van elk potje?</h3>
+                        <p class="text-gray-400">Elk potje heeft een capaciteit van 250ml, perfect voor de gemiddelde hoeveelheid kruiden die een huishouden nodig heeft.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:scale-102 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold mb-3">Zijn de etiketten waterbestendig?</h3>
+                        <p class="text-gray-400">Ja, de meegeleverde etiketten zijn waterbestendig en UV-bestendig, waardoor ze niet vervagen of loslaten tijdens gebruik.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:scale-102 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold mb-3">Is er een garantie op de producten?</h3>
+                        <p class="text-gray-400">Wij bieden een volledige 2-jaar garantie op al onze producten tegen fabricagefouten en materiaaldefecten.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="cta" class="py-24 relative">
+        <section id="cta" class="py-24 relative" style="background-image: url('https://images.unsplash.com/photo-1522184216316-3c1a2f3d2017?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); background-size: cover; background-position: center;">
             <div class="absolute inset-0 bg-gradient-to-br from-purple-900/90 to-gray-900/90"></div>
             <div class="container mx-auto px-6 relative z-10 text-center">
                 <h2 class="text-3xl md:text-4xl font-bold mb-8">
-                    Mis Deze Aanbieding Niet!
+                    Profiteer Nu van 25% Korting!
                 </h2>
                 <p class="text-xl text-gray-300 mb-12">
-                    Nog maar enkele exemplaren beschikbaar op voorraad
+                    Bestel vandaag nog en ontvang gratis verzending op je bestelling
                 </p>
                 <a href="https://amzn.to/3EGbl5G" class="inline-block bg-gradient-to-r from-purple-600 to-pink-600 px-8 py-4 rounded-full text-lg font-semibold hover:scale-105 transform transition duration-300 shadow-lg hover:shadow-purple-500/25">
-                    Bestel Nu
+                    Bestel Nu Met Korting
                 </a>
             </div>
         </section>
@@ -103,13 +218,14 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Contact</h3>
-                    <p class="text-gray-400">support@example.com</p>
+                    <p class="text-gray-400">support@organess.com</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Links</h3>
                     <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-purple-400 transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-purple-400 transition-colors duration-300">Terms & Conditions</a></li>
+                        <li><a href="https://readthisnow.github.io/organess-kruidenpotjes-2025-04-27-xc7ed/privacy.html" class="hover:text-purple-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://readthisnow.github.io/organess-kruidenpotjes-2025-04-27-xc7ed/terms.html" class="hover:text-purple-400 transition-colors duration-300">Terms & Conditions</a></li>
+                        <li><a href="https://readthisnow.github.io/organess-kruidenpotjes-2025-04-27-xc7ed/blog.html" class="hover:text-purple-400 transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
                 <div>
@@ -129,5 +245,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
